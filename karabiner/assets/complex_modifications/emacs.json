@@ -201,7 +201,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+3)",
+      "description": "Emacs key bindings [control+keys] (rev 10+5)",
       "manipulators": [
         {
           "type": "basic",
@@ -223,6 +223,14 @@
             }
           ],
           "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^en$"
+                }
+              ]
+            },
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
@@ -816,6 +824,14 @@
           ],
           "conditions": [
             {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^en$"
+                }
+              ]
+            },
+            {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^org\\.gnu\\.Emacs$",
@@ -1008,6 +1024,14 @@
             }
           ],
           "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^en$"
+                }
+              ]
+            },
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
