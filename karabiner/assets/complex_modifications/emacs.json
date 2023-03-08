@@ -5,7 +5,7 @@
   ],
   "rules": [
     {
-      "description": "Emacs key bindings [C-x key strokes] (rev 2)",
+      "description": "Emacs key bindings [C-x key strokes] (rev 2+1)",
       "manipulators": [
         {
           "type": "basic",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+5)",
+      "description": "Emacs key bindings [control+keys] (rev 10+6)",
       "manipulators": [
         {
           "type": "basic",
@@ -413,6 +413,34 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "ansi",
+                "iso"
               ]
             }
           ]
@@ -1511,6 +1539,40 @@
             }
           ],
           "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.VSCode$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "ansi",
+                "iso"
+              ]
+            },
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
