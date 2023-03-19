@@ -202,7 +202,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+8)",
+      "description": "Emacs key bindings [control+keys] (rev 10+9)",
       "manipulators": [
         {
           "type": "basic",
@@ -223,6 +223,12 @@
               "set_variable": {
                 "name": "mark_mode",
                 "value": 1
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": "marking"
               }
             }
           ],
@@ -305,6 +311,12 @@
               "set_variable": {
                 "name": "mark_mode",
                 "value": 0
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
               }
             }
           ],
