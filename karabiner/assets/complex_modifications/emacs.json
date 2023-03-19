@@ -1,5 +1,5 @@
 {
-  "title": "Emacs key bindings (rev 12+1)",
+  "title": "Emacs key bindings (rev 12+2)",
   "maintainers": [
     "tekezo",
     "sho"
@@ -33,7 +33,7 @@
             {
               "type": "variable_if",
               "name": "C-x",
-              "value": 1
+              "value": true
             }
           ]
         },
@@ -62,7 +62,7 @@
             {
               "type": "variable_if",
               "name": "C-x",
-              "value": 1
+              "value": true
             }
           ]
         },
@@ -91,7 +91,7 @@
             {
               "type": "variable_if",
               "name": "C-x",
-              "value": 1
+              "value": true
             }
           ]
         },
@@ -109,7 +109,7 @@
             {
               "type": "variable_if",
               "name": "C-x",
-              "value": 1
+              "value": true
             }
           ]
         },
@@ -130,7 +130,7 @@
             {
               "set_variable": {
                 "name": "C-x",
-                "value": 1
+                "value": true
               }
             }
           ],
@@ -139,7 +139,7 @@
               {
                 "set_variable": {
                   "name": "C-x",
-                  "value": 0
+                  "value": false
                 }
               }
             ],
@@ -147,7 +147,7 @@
               {
                 "set_variable": {
                   "name": "C-x",
-                  "value": 0
+                  "value": false
                 }
               }
             ]
@@ -222,7 +222,7 @@
             {
               "set_variable": {
                 "name": "mark_mode",
-                "value": 1
+                "value": true
               }
             },
             {
@@ -244,7 +244,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {              
               "type": "frontmost_application_unless",
@@ -310,7 +310,7 @@
             {
               "set_variable": {
                 "name": "mark_mode",
-                "value": 0
+                "value": false
               }
             },
             {
@@ -332,7 +332,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {              
               "type": "frontmost_application_unless",
@@ -614,7 +614,7 @@
             {
               "set_variable": {
                 "name": "mark_mode",
-                "value": 0
+                "value": false
               }
             }
           ],
@@ -648,7 +648,7 @@
             {
               "set_variable": {
                 "name": "mark_mode",
-                "value": 0
+                "value": false
               }
             }
           ],
@@ -755,7 +755,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -838,7 +838,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -921,7 +921,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1004,7 +1004,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1086,7 +1086,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1160,7 +1160,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_if",
@@ -1198,7 +1198,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_if",
@@ -1242,7 +1242,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1322,7 +1322,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1402,7 +1402,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1482,7 +1482,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1561,7 +1561,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -1632,7 +1632,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_if",
@@ -1667,7 +1667,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_if",
@@ -1772,7 +1772,7 @@
             {
               "set_variable": {
                 "name": "mark_mode",
-                "value": 0
+                "value": false
               }
             }
           ],
@@ -1855,7 +1855,7 @@
             {
               "set_variable": {
                 "name": "mark_mode",
-                "value": 0
+                "value": false
               }
             }
           ],
@@ -2030,7 +2030,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -2109,7 +2109,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -2181,7 +2181,7 @@
             {
               "set_variable": {
                 "name": "mark_mode",
-                "value": 0
+                "value": false
               }
             }
           ],
@@ -2267,7 +2267,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -2342,7 +2342,7 @@
             {
               "name": "mark_mode",
               "type": "variable_if",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -2416,7 +2416,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
@@ -2490,7 +2490,7 @@
             {
               "name": "mark_mode",
               "type": "variable_unless",
-              "value": 1
+              "value": true
             },
             {
               "type": "frontmost_application_unless",
