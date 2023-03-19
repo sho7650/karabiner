@@ -98,30 +98,10 @@
         {
           "type": "basic",
           "from": {
-            "any": "key_code",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "C-x",
-              "value": true
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
             "key_code": "u",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
               "optional": [
+                "control",
                 "caps_lock"
               ]
             }
@@ -134,6 +114,24 @@
               ]
             }
           ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "any": "key_code",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
           "conditions": [
             {
               "type": "variable_if",
