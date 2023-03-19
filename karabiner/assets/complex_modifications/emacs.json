@@ -6,7 +6,7 @@
   ],
   "rules": [
     {
-      "description": "Emacs key bindings [C-x key strokes] (rev 2+1)",
+      "description": "Emacs key bindings [C-x key strokes] (rev 2+2)",
       "manipulators": [
         {
           "type": "basic",
@@ -105,6 +105,35 @@
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "variable_if",
@@ -616,6 +645,12 @@
                 "name": "mark_mode",
                 "value": false
               }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
+              }
             }
           ],
           "conditions": [
@@ -649,6 +684,12 @@
               "set_variable": {
                 "name": "mark_mode",
                 "value": false
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
               }
             }
           ],
@@ -1774,6 +1815,12 @@
                 "name": "mark_mode",
                 "value": false
               }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
+              }
             }
           ],
           "conditions": [
@@ -1856,6 +1903,12 @@
               "set_variable": {
                 "name": "mark_mode",
                 "value": false
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
               }
             }
           ],
@@ -2182,6 +2235,12 @@
               "set_variable": {
                 "name": "mark_mode",
                 "value": false
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
               }
             }
           ],
