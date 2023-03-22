@@ -229,7 +229,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+9)",
+      "description": "Emacs key bindings [control+keys] (rev 10+10)",
       "manipulators": [
         {
           "type": "basic",
@@ -1796,9 +1796,9 @@
           },
           "to": [
             {
-              "key_code": "right_arrow",
+              "key_code": "e",
               "modifiers": [
-                "left_command",
+                "control",
                 "shift"
               ]              
             },
