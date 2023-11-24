@@ -1,9 +1,6 @@
 {
   "title": "Emacs key bindings (rev 12+2)",
-  "maintainers": [
-    "tekezo",
-    "sho"
-  ],
+  "maintainers": ["tekezo", "sho"],
   "rules": [
     {
       "description": "Emacs key bindings [C-x key strokes] (rev 2+2)",
@@ -13,20 +10,14 @@
           "from": {
             "key_code": "c",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
             {
               "key_code": "q",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "conditions": [
@@ -42,20 +33,14 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
             {
               "key_code": "o",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "conditions": [
@@ -71,20 +56,14 @@
           "from": {
             "key_code": "s",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
             {
               "key_code": "s",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "conditions": [
@@ -100,18 +79,13 @@
           "from": {
             "key_code": "u",
             "modifiers": {
-              "optional": [
-                "control",
-                "caps_lock"
-              ]
+              "optional": ["control", "caps_lock"]
             }
           },
           "to": [
             {
               "key_code": "z",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "conditions": [
@@ -127,9 +101,7 @@
           "from": {
             "any": "key_code",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "conditions": [
@@ -145,12 +117,8 @@
           "from": {
             "key_code": "x",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
@@ -221,7 +189,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -236,13 +205,8 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "mandatory": [
-                "control",
-                "shift"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control", "shift"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
@@ -273,7 +237,7 @@
               "type": "variable_unless",
               "value": true
             },
-            {              
+            {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^org\\.gnu\\.Emacs$",
@@ -314,7 +278,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -324,13 +289,8 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "mandatory": [
-                "control",
-                "shift"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control", "shift"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
@@ -361,7 +321,7 @@
               "type": "variable_if",
               "value": true
             },
-            {              
+            {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^org\\.gnu\\.Emacs$",
@@ -402,7 +362,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -412,13 +373,8 @@
           "from": {
             "key_code": "d",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "option"]
             }
           },
           "to": [
@@ -476,7 +432,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -486,13 +443,8 @@
           "from": {
             "key_code": "h",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "option"]
             }
           },
           "to": [
@@ -542,7 +494,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -552,13 +505,8 @@
           "from": {
             "key_code": "i",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
@@ -616,7 +564,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -626,12 +575,8 @@
           "from": {
             "key_code": "g",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
@@ -654,10 +599,7 @@
           "conditions": [
             {
               "type": "keyboard_type_if",
-              "keyboard_types": [
-                "ansi",
-                "iso"
-              ]
+              "keyboard_types": ["ansi", "iso"]
             }
           ]
         },
@@ -666,12 +608,8 @@
           "from": {
             "key_code": "open_bracket",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
@@ -694,10 +632,7 @@
           "conditions": [
             {
               "type": "keyboard_type_if",
-              "keyboard_types": [
-                "ansi",
-                "iso"
-              ]
+              "keyboard_types": ["ansi", "iso"]
             }
           ]
         },
@@ -706,12 +641,8 @@
           "from": {
             "key_code": "close_bracket",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
@@ -722,9 +653,7 @@
           "conditions": [
             {
               "type": "keyboard_type_if",
-              "keyboard_types": [
-                "jis"
-              ]
+              "keyboard_types": ["jis"]
             }
           ]
         },
@@ -733,14 +662,8 @@
           "from": {
             "key_code": "m",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
@@ -764,22 +687,14 @@
           "from": {
             "key_code": "b",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -837,7 +752,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -847,22 +763,14 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -920,7 +828,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -930,22 +839,14 @@
           "from": {
             "key_code": "n",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -1003,7 +904,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1013,22 +915,14 @@
           "from": {
             "key_code": "p",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -1086,7 +980,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1096,21 +991,14 @@
           "from": {
             "key_code": "v",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "page_down",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -1168,7 +1056,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1178,22 +1067,14 @@
           "from": {
             "key_code": "a",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "a",
-              "modifiers": [
-                "control",
-                "shift"
-              ]
+              "modifiers": ["control", "shift"]
             }
           ],
           "conditions": [
@@ -1243,31 +1124,25 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
-        },          
+        },
         {
           "type": "basic",
           "from": {
             "key_code": "a",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "home",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -1291,21 +1166,14 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "end",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -1329,22 +1197,14 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "e",
-              "modifiers": [
-                "control",
-                "shift"
-              ]
+              "modifiers": ["control", "shift"]
             }
           ],
           "conditions": [
@@ -1394,7 +1254,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1404,14 +1265,8 @@
           "from": {
             "key_code": "b",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
@@ -1474,7 +1329,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1484,14 +1340,8 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
@@ -1554,7 +1404,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1564,14 +1415,8 @@
           "from": {
             "key_code": "n",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
@@ -1634,7 +1479,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1644,14 +1490,8 @@
           "from": {
             "key_code": "p",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift",
-                "option"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift", "option"]
             }
           },
           "to": [
@@ -1714,7 +1554,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1724,13 +1565,8 @@
           "from": {
             "key_code": "v",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
@@ -1793,7 +1629,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -1803,13 +1640,8 @@
           "from": {
             "key_code": "a",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
@@ -1838,13 +1670,8 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
@@ -1873,29 +1700,20 @@
           "from": {
             "key_code": "a",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "conditions": [
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^org\\.eclipse\\.platform\\.ide$"
-              ]
+              "bundle_identifiers": ["^org\\.eclipse\\.platform\\.ide$"]
             }
           ]
         },
@@ -1904,29 +1722,20 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "conditions": [
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "^org\\.eclipse\\.platform\\.ide$"
-              ]
+              "bundle_identifiers": ["^org\\.eclipse\\.platform\\.ide$"]
             }
           ]
         },
@@ -1935,28 +1744,18 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "e",
-              "modifiers": [
-                "control",
-                "shift"
-              ]              
+              "modifiers": ["control", "shift"]
             },
             {
               "key_code": "x",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             },
             {
               "set_variable": {
@@ -2021,7 +1820,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2031,21 +1831,14 @@
           "from": {
             "key_code": "w",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "x",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             },
             {
               "set_variable": {
@@ -2110,7 +1903,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2120,21 +1914,14 @@
           "from": {
             "key_code": "y",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "v",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ],
           "conditions": [
@@ -2187,7 +1974,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2202,21 +1990,14 @@
           "from": {
             "key_code": "v",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "page_up",
-              "modifiers": [
-                "shift"
-              ]
+              "modifiers": ["shift"]
             }
           ],
           "conditions": [
@@ -2274,7 +2055,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2284,13 +2066,8 @@
           "from": {
             "key_code": "v",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
@@ -2353,7 +2130,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2363,21 +2141,14 @@
           "from": {
             "key_code": "w",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "c",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             },
             {
               "set_variable": {
@@ -2442,7 +2213,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2452,22 +2224,14 @@
           "from": {
             "key_code": "b",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_option",
-                "shift"
-              ]
+              "modifiers": ["left_option", "shift"]
             }
           ],
           "conditions": [
@@ -2517,7 +2281,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2527,22 +2292,14 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                "left_option",
-                "shift"
-              ]
+              "modifiers": ["left_option", "shift"]
             }
           ],
           "conditions": [
@@ -2592,7 +2349,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2602,21 +2360,14 @@
           "from": {
             "key_code": "b",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_option"                
-              ]
+              "modifiers": ["left_option"]
             }
           ],
           "conditions": [
@@ -2666,7 +2417,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2676,21 +2428,14 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock",
-                "shift"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock", "shift"]
             }
           },
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ],
           "conditions": [
@@ -2740,7 +2485,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
@@ -2750,20 +2496,14 @@
           "from": {
             "key_code": "d",
             "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
+              "mandatory": ["option"],
+              "optional": ["caps_lock"]
             }
           },
           "to": [
             {
               "key_code": "delete_forward",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ],
           "conditions": [
@@ -2808,7 +2548,8 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
-                "^com\\.microsoft\\.VSCode$"
+                "^com\\.microsoft\\.VSCode$",
+                "^dev\\.warp\\.Warp-Stable$"
               ]
             }
           ]
