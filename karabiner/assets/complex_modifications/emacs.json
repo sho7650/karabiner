@@ -1,5 +1,5 @@
 {
-  "title": "Emacs key bindings (rev 12+2)",
+  "title": "Emacs key bindings (rev 12+3)",
   "maintainers": ["tekezo", "sho"],
   "rules": [
     {
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+11)",
+      "description": "Emacs key bindings [control+keys] (rev 10+13)",
       "manipulators": [
         {
           "type": "basic",
@@ -633,6 +633,10 @@
             {
               "type": "keyboard_type_if",
               "keyboard_types": ["ansi", "iso"]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": ["^jp\\.monokakido\\.Dictionaries$"]
             }
           ]
         },
