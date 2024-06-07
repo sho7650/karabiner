@@ -1,9 +1,9 @@
 {
-  "title": "Emacs key bindings (rev 12+3)",
+  "title": "Emacs key bindings (rev 12+4)",
   "maintainers": ["tekezo", "sho"],
   "rules": [
     {
-      "description": "Emacs key bindings [C-x key strokes] (rev 2+2)",
+      "description": "Emacs key bindings [C-x key strokes] (rev 2+3)",
       "manipulators": [
         {
           "type": "basic",
@@ -190,7 +190,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -198,7 +199,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+13)",
+      "description": "Emacs key bindings [control+keys] (rev 10+15)",
       "manipulators": [
         {
           "type": "basic",
@@ -279,7 +280,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -363,7 +365,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -433,7 +436,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -495,7 +499,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -565,7 +570,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -757,7 +763,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -833,7 +840,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -909,7 +917,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -985,7 +994,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1061,7 +1071,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1129,7 +1140,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1259,7 +1271,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1334,7 +1347,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1409,7 +1423,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1484,7 +1499,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1559,7 +1575,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1634,7 +1651,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1825,7 +1843,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1908,7 +1927,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -1979,7 +1999,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2060,7 +2081,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2135,7 +2157,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2218,7 +2241,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2286,7 +2310,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2354,7 +2379,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2422,7 +2448,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2490,7 +2517,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
@@ -2553,7 +2581,8 @@
                 "^org\\.macports\\.X11$",
                 "^com\\.sublimetext\\.",
                 "^com\\.microsoft\\.VSCode$",
-                "^dev\\.warp\\.Warp-Stable$"
+                "^dev\\.warp\\.Warp-Stable$",
+                "^com\\.github\\.wez\\.wezterm$"
               ]
             }
           ]
