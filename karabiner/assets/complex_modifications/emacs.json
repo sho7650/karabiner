@@ -199,7 +199,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+15)",
+      "description": "Emacs key bindings [control+keys] (rev 10+16)",
       "manipulators": [
         {
           "type": "basic",
@@ -687,6 +687,9 @@
               "input_sources": [
                 {
                   "language": "^en$"
+                },
+                {
+                  "language": "^ja$"
                 }
               ]
             }
