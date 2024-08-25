@@ -199,7 +199,7 @@
       ]
     },
     {
-      "description": "Emacs key bindings [control+keys] (rev 10+16)",
+      "description": "Emacs key bindings [control+keys] (rev 10+17)",
       "manipulators": [
         {
           "type": "basic",
@@ -643,6 +643,40 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": ["^jp\\.monokakido\\.Dictionaries$"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": ["control"],
+              "optional": ["caps_lock"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z",
+              "modifiers": ["left_command"]              
+            },
+            {
+              "set_variable": {
+                "name": "mark_mode",
+                "value": false
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": ["ansi", "iso"]
             }
           ]
         },
