@@ -3,8 +3,30 @@
   "maintainers": ["tekezo", "sho"],
   "rules": [
     {
-      "description": "Emacs key bindings [C-x key strokes] (rev 2+3)",
+      "description": "Emacs key bindings [C-x key strokes] (rev 2+4)",
       "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "optional": ["caps_lock"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w",
+              "modifiers": ["left_command"]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "C-x",
+              "value": true
+            }
+          ]
+        },
         {
           "type": "basic",
           "from": {
@@ -115,7 +137,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "x",
+            "key_code":                                            j,
             "modifiers": {
               "mandatory": ["control"],
               "optional": ["caps_lock"]
@@ -658,7 +680,7 @@
           "to": [
             {
               "key_code": "z",
-              "modifiers": ["left_command"]              
+              "modifiers": ["left_command"]
             },
             {
               "set_variable": {

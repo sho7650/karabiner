@@ -1,0 +1,60 @@
+{
+  "title": "Alternate Command and Option Keys",
+  "rules": [
+    {
+      "description": "Alternate Command+Keys to Option (Rev.1)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": ["command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": ["command"]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^en$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": ["command", "shift", "option", "control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w",
+              "modifiers": ["command"]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^en$"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
