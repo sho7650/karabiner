@@ -137,7 +137,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code":                                            j,
+            "key_code": "x",
             "modifiers": {
               "mandatory": ["control"],
               "optional": ["caps_lock"]
