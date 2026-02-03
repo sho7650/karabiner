@@ -1,0 +1,47 @@
+{
+  "title": "Disable custom keybindings during Japanese input",
+  "rules": [
+    {
+      "description": "Control the Ctrl keys for IME (rev 2)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": ["control"],
+              "optional": ["caps_lock", "shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            },
+            {
+              "set_variable": {
+                "name": "mark_mode",
+                "value": false
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "emacs.mark.mode",
+                "text": ""
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

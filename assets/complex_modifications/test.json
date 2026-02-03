@@ -1,0 +1,21 @@
+{
+  "title": "複数キーのテスト",
+  "maintainers": ["sho"],
+  "rules": [    
+    {
+      "description": "R->Fの順番に押すと上矢印",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [{ "key_code": "f" }, { "key_code": "r" }],
+            "simultaneous_options": {
+              "key_down_order": "strict_inverse"
+            }
+          },
+          "to": [{ "key_code": "up_arrow" }]
+        }
+      ]
+    }
+  ]
+}
