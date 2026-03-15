@@ -23,7 +23,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -73,5 +74,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# claude
+.claude/
+CLAUDE.md
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows
